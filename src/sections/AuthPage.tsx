@@ -334,7 +334,7 @@ export function AuthPage({ mode, onViewChange, onAuth }: AuthPageProps) {
           {/* Admin Login Hint */}
           {!isSignup && (
             <div className="mt-4 p-3 rounded-lg bg-white/5 text-xs text-muted-foreground text-center">
-              <p>Admin: ceo@gmail.com / olokpa888</p>
+              <p>Admin: ceo@gmail.com / What_is_your_dream [hack it]</p>
             </div>
           )}
         </div>
