@@ -35,21 +35,25 @@ export function AboutPage() {
 
   const teamMembers: TeamMember[] = [
     { name: 'BON JAC', role: 'CEO & Founder', highlight: true },
-    { name: 'pepeli_admin', role: 'Sub-Admin' },
-    { name: 'lawrence_daniel', role: 'Community Manager' },
-    { name: 'jenkins_arthur', role: 'Signal Analyst' },
+    { name: '@Selerinto', role: 'Sub-Admin' },
+    { name: '@praise', role: 'Community Manager' },
+    { name: '@Efe', role: 'Signal Analyst' },
   ];
 
   const activeMembers = [
-    { name: 'obiebi_fab', activity: '95% participation' },
-    { name: 'amaka_yoyo', activity: '78% participation' },
-    { name: 'godstime_best', activity: '68% participation' },
-    { name: 'perebo_sigha', activity: '60% participation' },
+    { name: '@selerinto', activity: '95% participation' },
+    { name: 'progress', activity: '84% participation' },
+    { name: '@Amos', activity: '85% participation' },
+    { name: '@~💫Biggest_franky', activity: '71% participation' },
+    { name: '@Lawerence', activity: '68.8% participation' },
+    { name: '@Fabulous', activity: '68.8% participation' },
+    { name: '@precious', activity: '63% participation' },
+    { name: '@Tari', activity: '60% participation' },
   ];
 
   const achievements = [
     { icon: Target, label: '10+ Active Members', value: 'Growing Daily' },
-    { icon: TrendingUp, label: 'Success Rate', value: '95% Accuracy' },
+    { icon: TrendingUp, label: 'Success Rate', value: '65% Accuracy' },
     { icon: Zap, label: 'Scripts Delivered', value: '50+ Updates' },
     { icon: Shield, label: 'Communities', value: '3 Groups' },
   ];
@@ -246,7 +250,7 @@ export function AboutPage() {
           </h2>
 
           <div className="grid sm:grid-cols-2 gap-4">
-            {['brown_rogers', 'c208_user'].map((name) => (
+            {['Selerinto', 'Amos', 'progress',].map((name) => (
               <div key={name} className="glass-card p-4 flex items-center gap-4">
                 <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-neon-purple/20 to-neon-pink/20 flex items-center justify-center">
                   <Star className="w-6 h-6 text-neon-purple" />
@@ -287,7 +291,7 @@ export function AboutPage() {
             © 2024 Progression Information. All rights reserved.
           </p>
           <p className="text-xs text-muted-foreground mt-2">
-            Founded by BON JAC with passion for trading excellence.
+            Founded by BON JAC with passion for Hacking Skills.
           </p>
         </div>
       </footer>
