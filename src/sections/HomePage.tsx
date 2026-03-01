@@ -144,7 +144,7 @@ export function HomePage({ onViewChange }: HomePageProps) {
               <div className="text-xs md:text-sm text-muted-foreground">Groups</div>
             </div>
             <div className="glass-card p-3 md:p-4">
-              <div className="text-xl md:text-2xl lg:text-3xl font-bold neon-text">95%</div>
+              <div className="text-xl md:text-2xl lg:text-3xl font-bold neon-text">65%</div>
               <div className="text-xs md:text-sm text-muted-foreground">Success</div>
             </div>
           </div>
