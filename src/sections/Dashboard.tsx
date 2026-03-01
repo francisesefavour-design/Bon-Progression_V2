@@ -502,7 +502,7 @@ export function Dashboard({ user, onNotification, onOpenAIChat }: DashboardProps
 
                     <div className="p-2 md:p-3 rounded-lg bg-white/5 text-[10px] md:text-xs text-muted-foreground">
                       <p className="font-medium text-white mb-1">Script credentials:</p>
-                      <p className="truncate">ceo@gmail.com / olokpa888</p>
+                      <p className="truncate">ceo@gmail.com / Hack_your_day</p>
                     </div>
                   </div>
                 )}
